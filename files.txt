@@ -1,0 +1,100 @@
+[    1088994 Oct 12 22:12]  .
+├── [      35381 Aug  4  2023]  baer.png
+├── [      17875 Aug  4  2023]  bear.mp3
+├── [       7567 Aug  8  2023]  bing_spam
+│   ├── [       1051 Sep 15  2023]  index.html
+│   ├── [         25 Sep 15  2023]  popup.html
+│   ├── [       2222 Sep 15  2023]  script.js
+│   └── [        173 Sep 15  2023]  style.css
+├── [     135103 Aug 25  2023]  bullshit
+│   ├── [       6170 Aug  4  2023]  coffee_sim
+│   │   ├── [        413 Sep 15  2023]  coffee.txt
+│   │   ├── [        435 Sep 15  2023]  index.html
+│   │   ├── [        664 Sep 15  2023]  script.js
+│   │   ├── [        439 Aug  3  2023]  script-min.js
+│   │   └── [        123 Sep 15  2023]  style.css
+│   ├── [      92826 Aug 17  2023]  fireworks
+│   │   ├── [      35051 Aug 17  2023]  fireworks-01.mp3
+│   │   ├── [      47053 Aug 17  2023]  fireworks-04_multiple.mp3
+│   │   ├── [       2378 Sep 15  2023]  index.html
+│   │   ├── [       2896 Sep 15  2023]  script.js
+│   │   └── [       1352 Sep 15  2023]  style.css
+│   ├── [       6857 Aug  4  2023]  graph_drawer
+│   │   ├── [        687 Sep 15  2023]  index.html
+│   │   ├── [       1720 Sep 15  2023]  script.js
+│   │   └── [        354 Sep 15  2023]  style.css
+│   └── [      25154 Aug 25  2023]  login_screen
+│       ├── [        503 Sep 15  2023]  index.html
+│       ├── [       4178 Aug 25  2023]  script.js
+│       ├── [       3735 Aug 25  2023]  script.ts
+│       ├── [        245 Sep 15  2023]  style.css
+│       └── [      12397 Aug 25  2023]  tsconfig.json
+├── [     168696 Sep 15  2023]  contact
+│   ├── [     159576 Sep 15  2023]  data
+│   │   ├── [       1925 Sep 15  2023]  data.json
+│   │   ├── [      16092 Sep 14  2023]  discord.png
+│   │   ├── [       2215 Nov  1  2023]  mail.svg
+│   │   ├── [      16896 Sep 14  2023]  signal.png
+│   │   ├── [      17408 Sep 15  2023]  skype.webp
+│   │   ├── [      21741 Sep 14  2023]  telegram.png
+│   │   ├── [      10476 Sep 15  2023]  viber.webp
+│   │   └── [      68727 Sep 14  2023]  whatsapp.png
+│   ├── [        275 Sep 14  2023]  index.html
+│   ├── [       2116 Sep 15  2023]  script.js
+│   ├── [       1860 Sep 15  2023]  script.ts
+│   └── [        773 Nov  1  2023]  style.css
+├── [       3029 Sep 14  2023]  development.js
+├── [      20776 Sep 14  2023]  favicon.ico
+├── [       4250 Nov  1  2023]  http
+│   └── [        154 Nov  1  2023]  404.html
+├── [      21674 Nov  1  2023]  .idea
+│   ├── [        421 Sep 14  2023]  compiler.xml
+│   ├── [        730 Nov  1  2023]  deployment.xml
+│   ├── [        103 Sep 21  2023]  .gitignore
+│   ├── [       4506 Nov  1  2023]  inspectionProfiles
+│   │   └── [        410 Nov  1  2023]  Project_Default.xml
+│   ├── [       4096 Sep 14  2023]  jsLinters
+│   ├── [        180 Sep 14  2023]  misc.xml
+│   ├── [        277 Sep 14  2023]  modules.xml
+│   ├── [        469 Sep 14  2023]  mywebsite.iml
+│   ├── [        284 Sep 14  2023]  prettier.xml
+│   ├── [        556 Nov  1  2023]  webServers.xml
+│   └── [       5956 Nov  1  2023]  workspace.xml
+├── [      41103 Sep 15  2023]  index.html
+├── [      16191 Aug  4  2023]  lists
+│   └── [      12095 Aug  4  2023]  downloads
+│       └── [       7999 Aug  4  2023]  adobe
+│           ├── [        560 Nov  1  2023]  index.html
+│           ├── [       2425 Aug  4  2023]  list.csv
+│           ├── [        806 Nov  1  2023]  script.js
+│           └── [        112 Nov  1  2023]  style.css
+├── [       4424 Sep 15  2023]  localdata.html
+├── [      21062 Aug  4  2023]  logo.ico
+├── [      33176 Aug  4  2023]  logo.png
+├── [     493762 Sep 16  2023]  media
+│   ├── [     111313 Sep 16  2023]  elephant.jpg
+│   └── [     378353 Sep 16  2023]  elephant.png
+├── [       4132 Aug  4  2023]  minecraftregular.woff
+├── [      17830 Nov  1  2023]  news
+│   ├── [       8851 Nov  1  2023]  0
+│   │   └── [       4755 Nov  1  2023]  index.html
+│   ├── [        566 Nov  1  2023]  ad.html
+│   ├── [        263 Nov  1  2023]  article.css
+│   ├── [       1631 Nov  1  2023]  article.html
+│   ├── [       1276 Nov  1  2023]  article.js
+│   ├── [        785 Nov  1  2023]  display.js
+│   ├── [        186 Nov  1  2023]  index.html
+│   └── [        176 Nov  1  2023]  none.html
+├── [       1293 Sep 15  2023]  script.js
+├── [        450 Sep 15  2023]  style.css
+└── [      37124 Aug  4  2023]  wtoolkit
+    ├── [       3881 Nov  1  2023]  index.html
+    ├── [      11256 Aug  4  2023]  m
+    │   ├── [       3972 Nov  1  2023]  index.html
+    │   ├── [       2534 Nov  1  2023]  script.js
+    │   └── [        654 Nov  1  2023]  style.css
+    ├── [       1449 Nov  1  2023]  script.js
+    ├── [        629 Nov  1  2023]  style.css
+    └── [      15813 Aug  4  2023]  toolkit.iso.torrent
+
+     2244561 bytes used in 21 directories, 77 files
