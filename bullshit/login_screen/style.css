@@ -1,0 +1,20 @@
+body,
+html {
+	background-color: black;
+	height: 100dvh;
+	margin: 0;
+}
+
+#console {
+	color: rgb(20, 255, 12);
+	font-size: large;
+	padding: 8px;
+}
+
+#console input {
+	border: none;
+	background: none;
+	width: 300px;
+	color: yellow;
+	outline: none;
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "primary": "WhatsApp",
+    "secondary": "+49 1525 7048829",
+    "link": "https://wa.me/4915257048829",
+    "icon": "data/whatsapp.png",
+    "text_color": "#FFF",
+    "primary_color": "#28D146",
+    "secondary_color": "#5FFC7B",
+    "font": "Helvetica, sans-serif",
+    "background": "linear-gradient(to top left, %P, %S)"
+  },
+  {
+    "primary": "Telegram",
+    "secondary": "@baer1",
+    "link": "https://t.me/baer1",
+    "icon": "data/telegram.png",
+    "text_color": "#FFF",
+    "primary_color": "#039BE5",
+    "secondary_color": "#02BD90",
+    "font": "Open Sans, sans-serif",
+    "background": "linear-gradient(to top left, %P, %S)"
+  },
+  {
+    "primary": "Discord",
+    "secondary": "@baer1 / 201#4337",
+    "link": "https://discord.com/users/914573563028189276",
+    "icon": "data/discord.png",
+    "text_color": "#FFF",
+    "primary_color": "#5865F2",
+    "secondary_color": null,
+    "font": "Uni Sans Heavy, sans-serif",
+    "background": "%P"
+  },
+  {
+    "primary": "Viber",
+    "secondary": "@baer1",
+    "link": "viber://chat?number=4915257048829",
+    "icon": "data/viber.webp",
+    "text_color": "#FFF",
+    "primary_color": "#7360f2",
+    "secondary_color": null,
+    "font": "Segoe UI Light, sans-serif",
+    "background": "%P"
+  },
+  {
+    "primary": "Skype",
+    "secondary": "videocreator@outlook.de",
+    "link": "skype://videocreator@outlook.de?chat",
+    "icon": "data/skype.webp",
+    "text_color": "#FFF",
+    "primary_color": "#009EDC",
+    "secondary_color": null,
+    "font": "Segoe UI, sans-serif",
+    "background": "%P"
+  },
+  {
+    "primary": "E-Mail",
+    "secondary": "baer1@inbox.ru",
+    "link": "mailto:baer1@inbox.ru",
+    "icon": "data/mail.svg",
+    "text_color": "#FFF",
+    "primary_color": "#444",
+    "secondary_color": null,
+    "font": "Segoe UI Semilight, sans-serif",
+    "background": "%P"
+  }
+]

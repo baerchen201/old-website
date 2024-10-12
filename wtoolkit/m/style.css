@@ -1,0 +1,64 @@
+.mainlist {
+	list-style-type: disc;
+}
+
+.mainlist ul {
+	list-style-type: "- ";
+}
+
+h1 {
+	font-size: xx-large;
+	text-align: left;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-rows: 50% 50%;
+}
+
+.download {
+	font-size: large;
+}
+
+.notice {
+	position: relative;
+	bottom: 0;
+	font-size: small;
+	right: 0;
+}
+
+baerl {
+	font-family: monospace;
+}
+
+.request {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	font-size: small;
+}
+
+#lightmode {
+	margin: 2px;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+#mobile {
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	margin: 0;
+	left: 0;
+	display: none;
+}
+
+nav button {
+	border: 3px ridge black;
+}

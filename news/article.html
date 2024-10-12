@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Article Viewer</title>
+    <script>
+        try {
+            document.querySelector("#noscript").style.display = "none"
+        } catch (e) {
+        }
+        window.addEventListener("load", () => {
+            document.querySelector("#noscript").style.display = "none"
+        })
+    </script>
+    <script defer src="display.js"></script>
+
+    <style>
+
+        body {
+            height: calc(100vh - 16px);
+            width: calc(100vw - 16px);
+        }
+
+        iframe {
+            height: 100%;
+            width: 100%;
+        }
+
+
+        #main {
+            display: grid;
+            grid-template-columns: 0.7fr 3fr 0.7fr;
+            grid-template-rows: 2fr 0.4fr;
+            grid-template-areas: "adl main adr"
+        "adb adb adb";
+            height: 100%;
+        }
+
+        .ad.left {
+            grid-area: adl;
+        }
+
+        .ad.right {
+            grid-area: adr;
+        }
+
+        .ad.bottom {
+            grid-area: adb;
+        }
+
+        #article {
+            grid-area: main;
+        }
+
+    </style>
+</head>
+<body>
+<noscript>Please enable javascript for this website.</noscript>
+<div id="noscript">This website requires javascript to work properly.<br>Please enable javascript for this website.
+</div>
+<div id="main">
+    <iframe class="ad left" src="ad.html"></iframe>
+    <iframe id="article" src="none.html"></iframe>
+    <iframe class="ad right" src="ad.html"></iframe>
+    <iframe class="ad bottom" src="ad.html"></iframe>
+</div>
+</body>
+</html>

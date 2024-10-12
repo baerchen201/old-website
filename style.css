@@ -1,0 +1,27 @@
+header {
+    min-height: fit-content;
+    height: fit-content;
+    position: sticky;
+    top: 0;
+    transition: height 2s;
+    background-color: lightgray;
+    width: 100svw;
+    left: 0;
+    margin: 0;
+    padding-left: 4px;
+}
+
+body {
+    min-height: fit-content;
+    font-family: Minecraft, sans-serif;
+    margin: 0;
+}
+
+#main {
+    padding: 8px;
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url(minecraftregular.woff) format("woff");
+}

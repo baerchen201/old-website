@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Browser Info</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1>Please wait...</h1>
+
+    <script>
+      // Create an object to store the captured data
+      var browserInfo = { geo: {} };
+      var a = 0;
+      window.onload = function () {
+        // Capture the user agent string
+        browserInfo.userAgent = window.navigator.userAgent;
+        delay();
+
+        // Capture the screen resolution
+        browserInfo.screenWidth = window.screen.width;
+        browserInfo.screenHeight = window.screen.height;
+        delay();
+
+        // Capture battery status (if available)
+        if (navigator.getBattery) {
+          navigator.getBattery().then(function (battery) {
+            browserInfo.batteryLevel = battery.level;
+            browserInfo.batteryCharging = battery.charging;
+            delay();
+          });
+        } else {
+          delay();
+        }
+
+        // Capture network information (if available)
+        if (navigator.connection) {
+          browserInfo.networkType = navigator.connection.type;
+          browserInfo.networkSpeed = navigator.connection.downlink;
+          delay();
+        } else {
+          delay();
+        }
+
+        // Capture system information
+        browserInfo.memory = window.navigator.deviceMemory;
+        browserInfo.cpuCores = window.navigator.hardwareConcurrency;
+        delay();
+
+        // Capture geolocation (if available and user grants permission)
+        if (navigator.geolocation) {
+          setTimeout(function () {
+            delay(true);
+          }, 1000);
+          navigator.geolocation.getCurrentPosition(
+            function (position) {
+              browserInfo.geo.latitude = position.coords.latitude;
+              browserInfo.geo.longitude = position.coords.longitude;
+              delay();
+            },
+            function (error) {
+              if (error.code === 1) {
+                browserInfo.geo = "User denied geolocation access";
+              } else {
+                browserInfo.geo = "Geolocation error: " + error;
+              }
+              delay();
+            }
+          );
+        } else {
+          delay();
+        }
+
+        // Capture cookie information
+        browserInfo.cookiesEnabled = navigator.cookieEnabled;
+        delay();
+
+        // Capture plugin information
+        var plugins = [];
+        for (var i = 0; i < navigator.plugins.length; i++) {
+          plugins.push(navigator.plugins[i].name);
+        }
+        //browserInfo.plugins = plugins;
+        delay();
+
+        // Capture device orientation (if available)
+        if (window.DeviceOrientationEvent && false) {
+          window.addEventListener("deviceorientation", function (event) {
+            browserInfo.alpha = event.alpha;
+            browserInfo.beta = event.beta;
+            browserInfo.gamma = event.gamma;
+          });
+          delay();
+        } else {
+          delay();
+        }
+
+        // Capture browser history
+        var historyArray = [];
+        for (var i = 0; i < window.history.length; i++) {
+          historyArray.push(window.history[i]);
+        }
+        //browserInfo.history = historyArray;
+        delay();
+
+        // Capture additional system information
+        browserInfo.os = window.navigator.oscpu;
+        browserInfo.language = window.navigator.language;
+        browserInfo.timezoneOffset = new Date().getTimezoneOffset();
+        delay();
+
+        function done() {
+          browserInfo.time = Date.now();
+
+          // Output the captured data to the console
+          console.log(browserInfo);
+          alert(JSON.stringify(browserInfo));
+
+          // Read and redirect to the link in the red.link file
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+              window.location.href = this.responseText
+              xhttp = null;
+            }
+            console.log(this.readyState, this.status, this.response);
+          };
+          xhttp.open("GET", "red.link", true);
+          xhttp.send();
+        }
+
+        function delay(h = false) {
+          a++;
+          if (window.h) return;
+          if (h) {
+            window.h = true;
+          }
+
+          if (a === 11) done();
+        }
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+html,
+body {
+  padding: 2px;
+  margin: 0;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol li {
+  margin-bottom: 3px;
+}

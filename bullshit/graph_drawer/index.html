@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<title>baer1 - Graph Drawer</title>
+		<meta
+			name="description"
+			content="" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<form action="javascript:draw()">
+			Y=
+			<input
+				type="text"
+				name="formula"
+				id="form" />
+			<button>Draw</button>
+		</form>
+		<canvas
+			height="1080"
+			width="1980"></canvas>
+		<p id="errors">Errors that have occured during the graphing:</p>
+		<script
+			src="script.js"
+			async
+			defer></script>
+	</body>
+</html>

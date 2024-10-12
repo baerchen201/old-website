@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<title>baer1's bing spam application</title>
+		<meta
+			name="description"
+			content="" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<h1>Bing spamming machine</h1>
+
+		<input
+			type="number"
+			name="amount"
+			id="amount"
+			max="500"
+			min="1"
+			step="1"
+			value=""
+			placeholder="amount of searches"
+			style="width: 150px" />
+		<input
+			type="number"
+			name="delay"
+			id="delay"
+			placeholder="delay in ms"
+			style="width: 150px"
+			min="10"
+			max="10000"
+			step="10"
+			value="" />
+		<input
+			type="number"
+			name="autoclose"
+			id="autoclose"
+			min="0"
+			step="10"
+			placeholder="automatically close tabs delay"
+			style="width: 200px"
+			max="60000" />
+
+		<button
+			id="start"
+			onclick="start()">
+			Start
+		</button>
+
+		<script
+			src="script.js"
+			async
+			defer></script>
+	</body>
+</html>
